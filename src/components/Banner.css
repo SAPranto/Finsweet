@@ -1,0 +1,21 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px;
+    background: #EFF7F2;
+    height: 576px;
+}
+.grn-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+    background: #70C174;
+    color: white;
+    backdrop-filter: blur(40px);
+    border: #70C174;
+    border-radius: 4px;
+    width: 149px;
+}

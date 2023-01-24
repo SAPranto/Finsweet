@@ -15,7 +15,7 @@ const Navbar = () => {
             <li>Media</li>
             <li>Contact</li>
             <li>
-            <button className='button'>Donate</button>
+            <button className='blk-btn'>Donate</button>
             </li>
         </ul>
     </div>
