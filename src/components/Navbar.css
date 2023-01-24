@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    background: #EFF7F2;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    padding-right: 100px;
+}
+.logo {
+    padding-left: 100px;
+}
+.button {
+    display: flex;
+    align-items: flex-start;
+    padding: 12px 32px;
+    gap: 10px;
+    border-radius: 4px;
+    color: white;
+    background: #1D2130;
+}
