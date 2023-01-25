@@ -1,5 +1,4 @@
 .left-column {
-    margin-left: 150px;
     margin-top: 50px;
     margin-bottom: 100px;
     width: 592px;
@@ -13,6 +12,7 @@
 }
 .body-container {
     display: flex;
+    padding: 0px 150px;
 }
 .tabs {
     display: flex;
@@ -28,8 +28,101 @@
 }
 .tab-container {
     width: 592px;
-    margin-right: 150px;
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 400px;
+}
+.lower-body {
+    display: flex;
+    padding: 80px 150px;
+    gap: 280px;
+    border-top: solid 1px;
+    border-color: #E5E5E5;
+}
+.lower-h2 {
+    width: 395px;
+    margin-top: 0px;
+}
+.lower-body p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #525560;
+}
+.upper-p {
+    width: 345px;
+}
+.lower-p {
+    width: 374px;
+}
+.Image {
+    margin: 50px 150px -100px 150px;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark opacity */
+    border-radius: 20px;
+}
+.overlay {
+    position: relative;
+    border-radius: 20px;
+    bottom: 288px;
+    left: 150px;
+    right: 150px;
+    width: 1600px;
+    height: 384px;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark opacity */
+}
+.center {
+    position: relative;
+    bottom: 600px;
+    margin: 0px 150px -400px 150px;
+}
+.center-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0px 500px;
+}
+.button-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+.green-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    position: relative;
+    width: 200px;
+    background: #70C174;
+    backdrop-filter: blur(40px);
+    border-radius: 4px;
+    border-color: transparent;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: right;
+
+color: #FFFFFF;
+}
+.white-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    position: relative;
+    width: 116px;
+    background: #FFFFFF;
+    backdrop-filter: blur(40px);
+    border-color: transparent;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D2130;
 }

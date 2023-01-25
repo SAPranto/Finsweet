@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Body.css'
-
+import image from '../image/Image2.png'
 const Body = () => {
 
   const [activeTab, setActiveTab] = useState('overview');
@@ -28,6 +28,22 @@ const Body = () => {
         {activeTab === 'whatyouget' && <p>This is What You get section text</p>}
       </div>
     </div>
+    </div>
+    <div className='lower-body'>
+      <h2 className='lower-h2'>How we use your donation</h2>
+      <p className='upper-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.  Nunc ut sem vitae risus tristique posuere.</p>
+      <p className='lower-p'>Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.</p>
+    </div>
+    <div className='image-container'>
+      <img className='Image' src={image} alt="windmill" width={1600} height={384} />
+      <div className="overlay"></div>
+      <div className='center'>
+      <h2 className='center-text'>You can contribute to make the environment greener!</h2>
+      <div className="button-container">
+        <button className='green-btn'>Join as a volunteer</button>
+        <button className='white-btn'>Donate</button>
+      </div>
+      </div>
     </div>
 
     </>

@@ -36,4 +36,8 @@ h6 {
 }
 li {
   list-style: none;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
 }
