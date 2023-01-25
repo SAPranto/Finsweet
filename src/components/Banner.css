@@ -3,17 +3,18 @@
     position: relative;
     background: #EFF7F2;
     height: 576px;
+    padding-top: 50px;
 }
 .image {
-    position: absolute;
-    right: 100px;
-    top: 50px;
+    position: relative;
+    left: 400px;
+    top: 20px;
 }
 .border-left {
     border-left: solid 72px #000;
     height: 2px;
     margin-top: 23px;
-    margin-left: 100px;
+    margin-left: 150px;
   }
   .bnr-container p {
     font-weight: 400;

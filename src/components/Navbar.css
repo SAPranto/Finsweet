@@ -8,17 +8,15 @@
 .menu {
     display: flex;
     justify-content: center;
-    font-family: roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 18.75px;
     align-items: center;
-    list-style: none;
     gap: 40px;
-    padding-right: 100px;
+    padding-right: 150px;
 }
 .logo {
-    padding-left: 100px;
+    padding-left: 150px;
 }
 .blk-btn {
     display: flex;

@@ -1,14 +1,13 @@
 .footer-container{
   display: flex;
   height: 402px;
-  padding: 0px 100px;
+  padding: 0px 150px;
   justify-content: space-between;
   background: #0B0706;
   color: white;
   align-items: center;
 }
 .footer-container li {
-  list-style: none;
   font-weight: 400;
   font-size: 14px;
   line-height: 160%;

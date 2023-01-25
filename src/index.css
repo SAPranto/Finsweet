@@ -4,3 +4,36 @@ body {
 * {
   font-family: 'Roboto';
 }
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 120%;
+}
+h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+}
+h3 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+}
+h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+}
+h5 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+}
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+}
+li {
+  list-style: none;
+}

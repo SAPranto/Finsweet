@@ -1,0 +1,35 @@
+.left-column {
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 592px;
+    color: #1D2130;
+}
+.body-container p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #525560;
+}
+.body-container {
+    display: flex;
+}
+.tabs {
+    display: flex;
+    flex-direction: row;
+    line-height: 200%;
+    color: #1D2130;
+    cursor: pointer;
+    gap: 40px;
+    border-bottom: solid 1px;
+    border-color: #E5E5E5;
+    width: 356px;
+    padding-left: 25px;
+}
+.tab-container {
+    width: 592px;
+    margin-right: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+}
