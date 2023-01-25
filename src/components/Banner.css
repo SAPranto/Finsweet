@@ -1,9 +1,49 @@
+.bnr-container{
+    display: flex;
+    position: relative;
+    background: #EFF7F2;
+    height: 576px;
+}
+.image {
+    position: absolute;
+    right: 100px;
+    top: 50px;
+}
+.border-left {
+    border-left: solid 72px #000;
+    height: 2px;
+    margin-top: 23px;
+    margin-left: 100px;
+  }
+p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #525560;
+    width: 517px;
+    line-height: 160%;
+    margin-top: 0px;
+}
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    width: 627px;
+    height: 134px;
+    line-height: 120%;
+    color: #1D2130;
+    margin-top: 10px;
+}
+h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D2130;
+ }
 .banner{
     display: flex;
     flex-direction: column;
-    padding: 0px 100px;
-    background: #EFF7F2;
-    height: 576px;
+    padding-left: 25px;
 }
 .grn-btn {
     display: flex;
