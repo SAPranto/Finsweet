@@ -5,16 +5,16 @@ This page is not responsive. It is created for an assesment and it was created a
 ## Navbar
 
 The Navbar created here is fully reusable. The Navbar component takes in an array of objects as a prop, each object representing a navigation item. The component maps over the array and creates a list item for each object, with a Link component linking to the specified 'link' value in the object. The Donate button is also added to the Navbar, which can be used for any desired action.
-
-The Navbar is styled using CSS, with the following features:
-
-The Navbar has a background color of #EFF7F2
-The logo is aligned to the left with a padding of 110px
-The menu items are aligned to the right with a padding of 110px
-The menu items are displayed in a row with a gap of 40px between them
-The button is styled as a black button with white text
 The Link components have a text-decoration of none and change font-weight when focused
 The Navbar is not responsive and is designed to be used with a fixed width layout.
+
+## Footer
+
+A reusable footer component for a website. It contains a logo, navigation menu, and a subscription form. The Footer component does not take any props. 
+The Footer component contains a logo with a fixed width and height.
+It also contains 3 navigation menus, each with 4 list items.
+The last section of the footer is a subscription form that allows users to enter their email and subscribe to updates.
+When the form is submitted, it logs the email to the console.
 
 ## Banner
 
@@ -38,14 +38,11 @@ The tab-container includes three tabs: Overview, Impact, and What You Get. Each 
 
 The component also includes an image-container that displays an image and overlays a text on top of the image. The image-container also includes two buttons that allow users to join as a volunteer or donate.
 
-Overall, this component is responsible for displaying the main content of the webpage and for providing an interactive way for the user to navigate through the different sections of the webpage.
+## Built With
+React - JavaScript library for building user interfaces
+React-Router-Dom - Routing Library For React.JS
+NPM - Package manager for JavaScript
 
-## Footer
+## Author
 
-A reusable footer component for a website. It contains a logo, navigation menu, and a subscription form. The Footer component does not take any props. 
-The Footer component contains a logo with a fixed width and height.
-It also contains 3 navigation menus, each with 4 list items.
-The last section of the footer is a subscription form that allows users to enter their email and subscribe to updates.
-When the form is submitted, it logs the email to the console.
-The Footer component uses a CSS file located in the Footer.css file. You can override the styles in this file by creating a new CSS file and importing it in your desired file.
-The Footer component uses an image file located in the image folder. The logo can be replaced with a new image file with the same name and file format.
+Shihab Ahmed Pranto - SAPranto
