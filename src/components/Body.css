@@ -173,18 +173,29 @@ color: #FFFFFF;
       width: 80%;
       height: auto;
       margin: auto;
-      margin-bottom: 300px;
+      margin-bottom: 200px;
     }
     .overlay {
-      width: 50%;
-      height: auto;
+      height: 235px;
+      top: -285px;
+      width: 80%;
+      margin-left: 95px;
+      margin-top: -150px;
     }
     .center {
-      padding: 190px 40px;
+      padding: 210px 40px 0px 40px;
     }
     .center-text {
       font-size: 2rem;
       padding: 0px 250px;
+    }
+    .green-btn {
+      font-size: 0.8rem;
+      padding: 10px;
+    }
+    .white-btn {
+      font-size: 0.8rem;
+      padding: 10px;
     }
   }
   
@@ -221,7 +232,7 @@ color: #FFFFFF;
     }
     .overlay {
     width: 100%;
-    height: auto;
+    height: 340px;
     }
     .center {
     padding: 0px 20px;
