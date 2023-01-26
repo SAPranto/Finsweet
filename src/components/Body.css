@@ -1,7 +1,7 @@
 .left-column {
-    margin-top: 50px;
-    margin-bottom: 100px;
-    width: 592px;
+    max-width: 37rem;
+    display: flex;
+    flex-direction: column;
     color: #1D2130;
 }
 .body-container p {
@@ -11,8 +11,11 @@
     color: #525560;
 }
 .body-container {
+    margin-top: 50px;
+    margin-bottom: 100px;
     display: flex;
     padding: 0px 110px;
+    width: 1500px;
 }
 .tabs {
     display: flex;
@@ -36,10 +39,9 @@
     padding: 0 10px;
   }
 .tab-container {
-    width: 602px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 460px;
+    margin-left: 200px;
+    margin-right: 210px;
+    width: 100%;
 }
 .lower-body {
     display: flex;
@@ -65,31 +67,34 @@
     width: 374px;
 }
 .Image {
-    margin: 50px 110px -100px 110px;
-    background-color: rgba(0, 0, 0, 0.5); /* Dark opacity */
+    padding: 0px 110px;
+    display: flex;
     border-radius: 20px;
+    max-width: 100%;
+    height: auto;
 }
 .overlay {
     position: relative;
-    border-radius: 20px;
-    bottom: 288px;
+    border-radius: 10px;
+    bottom: 385px;
     left: 110px;
     right: 110px;
-    width: 1670px;
+    width: 1280px;
     height: 384px;
     background-color: rgba(0, 0, 0, 0.5); /* Dark opacity */
 }
 .center {
+    display: flex;
+    flex-direction: column;
     position: relative;
-    bottom: 600px;
-    margin: 0px 110px -400px 110px;
+    bottom: 700px;
+    padding: 0px 200px;
 }
 .center-text{
     display: flex;
     justify-content: center;
     text-align: center;
     color: #FFFFFF;
-    padding: 0px 520px;
 }
 .button-container{
     align-items: center;
@@ -112,10 +117,6 @@
     font-weight: 500;
     font-size: 1rem;
     line-height: 19px;
-    /* identical to box height */
-
-    text-align: right;
-
 color: #FFFFFF;
 }
 .white-btn {

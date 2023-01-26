@@ -85,8 +85,6 @@ const Body = () => {
           className="Image"
           src={image}
           alt="windmill"
-          width={1670}
-          height={384}
         />
         <div className="overlay"></div>
         <div className="center">

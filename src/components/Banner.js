@@ -12,7 +12,7 @@ const Banner = (props) => {
       <p>{props.text}</p>
       <button className='grn-btn'>Donate now</button>
     </div>
-      <img className='image' src={props.image} alt={props.title} width={480} height={384} />
+      <img className='image' src={props.image} alt={props.title}/>
     </div>
     </>
   )

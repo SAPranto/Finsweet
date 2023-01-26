@@ -2,21 +2,21 @@
     display: flex;
     position: relative;
     background: #EFF7F2;
-    height: 576px;
-    padding-top: 50px;
+    padding: 50px 110px 100px 110px;
 }
 .image {
     position: relative;
-    left: 25%;
+    left: 5%;
     right: 0px;
     top: 20px;
     bottom: 0px;
+    height: 24rem;
+    width: 30rem;
 }
 .border-left {
     border-left: solid 72px #000;
     height: 2px;
     margin-top: 23px;
-    margin-left: 110px;
   }
   .bnr-container p {
     font-weight: 400;

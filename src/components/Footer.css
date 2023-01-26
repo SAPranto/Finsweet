@@ -6,6 +6,7 @@
   background: #0B0706;
   color: white;
   align-items: center;
+  margin-top: -400px;
 }
 .footer-container li {
   font-weight: 400;
