@@ -3,15 +3,17 @@
     position: relative;
     background: #EFF7F2;
     padding: 50px 110px 100px 110px;
+    width: 100%;
 }
 .image {
     position: relative;
-    left: 5%;
     right: 0px;
     top: 20px;
     bottom: 0px;
     height: 24rem;
     width: 30rem;
+    margin-left: 50px;
+    margin-right: 210px;
 }
 .border-left {
     border-left: solid 72px #000;
@@ -61,4 +63,41 @@
     border: #70C174;
     border-radius: 4px;
     width: 149px;
+}
+/* Mobile styles */
+@media only screen and (max-width: 768px) {
+    .bnr-container {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .border-left {
+        border-left: none;
+    }
+    .bnr-container h1 {
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+    }
+    .bnr-container p {
+        font-size: 0.8rem;
+        width: 100%;
+        text-align: center;
+    }
+    .bnr-container h3 {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .banner{
+        padding-left: 0px;
+    }
+    .grn-btn {
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
 }

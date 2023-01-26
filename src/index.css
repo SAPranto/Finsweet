@@ -42,29 +42,23 @@ li {
 button {
   cursor: pointer;
 }
-@media(max-width:1600px) {
+@media(min-width:1500px) {
   html {
     font-size: 100%;
   }
 }
-@media(max-width:1366px) {
-  html {
-    font-size: 90%;
- 
-  }
-}
 @media(max-width:1024px) {
   html {
-    font-size: 80%;
+    font-size: 90%;
   }
 }
 @media(max-width:767px) {
   html {
-    font-size: 75%;
+    font-size: 85%;
   }
 }
 @media(max-width:576px) {
   html {
-    font-size: 70%;
+    font-size: 75%;
   }
 }
