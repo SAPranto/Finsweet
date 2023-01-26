@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from '../image/Logo.png'
 import './Navbar.css'
 import { Link } from "react-router-dom";
 
 const Navbar = (props) => {
+  const [activeLink, setActiveLink] = useState("home")
+
+  const handleClick = (link) => {
+    setActiveLink(link)
+  }
+
   return (
     <div className='navbar'>
       <div className='logo'>
@@ -11,8 +17,8 @@ const Navbar = (props) => {
       </div>
         <ul className='menu'>
             {props.navItems.map((item, index) => (
-                <li key={index}>
-                    <Link to={item.link}>{item.title}</Link>
+                <li key={index} className={activeLink === item.link ? "active" : ""}>
+                    <Link to={item.link} onClick={() => handleClick(item.link)}>{item.title}</Link>
                 </li>
             ))}
             <li>

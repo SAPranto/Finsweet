@@ -20,26 +20,26 @@
     line-height: 200%;
     color: #1D2130;
     cursor: pointer;
-    gap: 40px;
+    gap: 50px;
     border-bottom: solid 1px;
     border-color: #E5E5E5;
-    width: 356px;
+    width: 400px;
     padding-left: 25px;
 }
 .tab-container .tabs li {
     border-bottom: none;
 }
 .tab-container .tabs li.active {
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid #70C174;
 }
 .tabs li {
     padding: 0 10px;
   }
 .tab-container {
-    width: 592px;
+    width: 602px;
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-left: 400px;
+    margin-left: 460px;
 }
 .lower-body {
     display: flex;

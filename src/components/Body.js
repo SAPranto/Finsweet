@@ -29,9 +29,10 @@ const Body = () => {
         </div>
         <div className="tab-container">
           <div className="tabs">
-            <li data-tab="overview" onClick={() => handleTabClick("overview")}>
+            <li className="active" onClick={() => handleTabClick("overview")}>
               Overview
             </li>
+
             <li data-tab="impact" onClick={() => handleTabClick("impact")}>
               Impact
             </li>
