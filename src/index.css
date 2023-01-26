@@ -6,17 +6,17 @@ body {
 }
 h1 {
   font-weight: 700;
-  font-size: 56px;
+  font-size: 3.5rem;
   line-height: 120%;
 }
 h2 {
   font-weight: 700;
-  font-size: 48px;
+  font-size: 3rem;
   line-height: 120%;
 }
 h3 {
   font-weight: 700;
-  font-size: 48px;
+  font-size: 3rem;
   line-height: 120%;
 }
 h4 {
@@ -26,12 +26,12 @@ h4 {
 }
 h5 {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 1.25rem;
   line-height: 150%;
 }
 h6 {
   font-weight: 700;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 150%;
 }
 li {
@@ -40,4 +40,24 @@ li {
 }
 button {
   cursor: pointer;
+}
+@media(max-width:1600px) {
+  html {
+    font-size: 100%;
+  }
+}
+@media(max-width:1240px) {
+  html {
+    font-size: 90%;
+  }
+}
+@media(max-width:1024px) {
+  html {
+    font-size: 80%;
+  }
+}
+@media(max-width:768px) {
+  html {
+    font-size: 70%;
+  }
 }

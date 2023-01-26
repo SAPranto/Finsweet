@@ -14,7 +14,7 @@
  }
  .footer-container h4 {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 160%;
   letter-spacing: 0.8px;
  }
@@ -53,12 +53,12 @@
   backdrop-filter: blur(40px);
   border-radius: 4px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   color: #1D2130;
 }
 .email-input::placeholder {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19px;
   color: rgba(235, 240, 249, 0.3);
   opacity: 0.8;
@@ -76,7 +76,7 @@
 .footer-container li {
   padding-bottom: 25px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 160%;
   opacity: 0.78;
 }

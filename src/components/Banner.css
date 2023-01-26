@@ -20,7 +20,7 @@
   }
   .bnr-container p {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     color: #525560;
     width: 517px;
     line-height: 160%;
@@ -28,7 +28,7 @@
 }
 .bnr-container h1 {
     font-weight: 700;
-    font-size: 56px;
+    font-size: 3.5rem;
     width: 627px;
     height: 134px;
     line-height: 120%;
@@ -37,7 +37,7 @@
 }
 .bnr-container h3 {
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 19px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -83,15 +83,10 @@
     }
     .bnr-container p {
     width: 100%;
-    font-size: 14px;
     }
     .bnr-container h1 {
     width: 100%;
-    font-size: 32px;
     height: auto;
-    }
-    .bnr-container h3 {
-    font-size: 14px;
     }
     .banner{
     padding-left: 15px;
@@ -99,7 +94,6 @@
     .grn-btn {
     width: 50%;
     padding: 8px 16px;
-    font-size: 12px;
     margin: 10px 0px 50px 0px;
     }
       .bnr-container {

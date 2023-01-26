@@ -6,7 +6,7 @@
 }
 .body-container p {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 160%;
     color: #525560;
 }
@@ -54,7 +54,7 @@
 }
 .lower-body p{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 160%;
     color: #525560;
 }
@@ -110,7 +110,7 @@
     border-radius: 4px;
     border-color: transparent;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 19px;
     /* identical to box height */
 
@@ -131,7 +131,7 @@ color: #FFFFFF;
     border-color: transparent;
     border-radius: 4px;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 19px;
     color: #1D2130;
 }
