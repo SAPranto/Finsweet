@@ -1,5 +1,8 @@
 # This Is A Landing Page Created With React.JS
 
+On Live - https://vercel.com/sapranto/finsweet
+
+
 This page is not responsive. It is created for an assesment and it was created as per the figma design. Though I add a little bit extra functionalities but I didn't make the website reposnsive because it was not included.
 
 ## Navbar
