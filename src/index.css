@@ -47,6 +47,11 @@ button {
     font-size: 100%;
   }
 }
+@media(max-width:1340px) {
+  html {
+    font-size: 95%;
+  }
+}
 @media(max-width:1024px) {
   html {
     font-size: 90%;
