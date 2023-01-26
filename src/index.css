@@ -62,8 +62,3 @@ button {
     font-size: 85%;
   }
 }
-@media(max-width:576px) {
-  html {
-    font-size: 75%;
-  }
-}

@@ -121,12 +121,14 @@
     }
     .img-container{
     justify-content: center;
+    padding-right: 25px;
     }
     .banner{
     padding: 0px 20px;
+    padding-right: 50px;
     }
     .image {
-    width: 100%;
+    width: 80%;
     height: auto;
     margin: 50px 0px;
     }
