@@ -78,8 +78,11 @@
     .img-container{
         justify-content: center;
     }
+    .banner{
+        padding: 0px 100px;
+    }
     .image {
-        width: 80%;
+        width: 75%;
         height: auto;
         margin: 50px 0px;
     }
@@ -96,7 +99,7 @@
         text-align: center;
     }
     .bnr-container h3 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         text-align: center;
         margin-top: 10px;
     }
