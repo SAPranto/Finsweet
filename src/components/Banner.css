@@ -7,14 +7,14 @@
 }
 .image {
     position: relative;
-    left: 400px;
+    left: 480px;
     top: 20px;
 }
 .border-left {
     border-left: solid 72px #000;
     height: 2px;
     margin-top: 23px;
-    margin-left: 150px;
+    margin-left: 110px;
   }
   .bnr-container p {
     font-weight: 400;

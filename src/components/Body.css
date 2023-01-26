@@ -12,7 +12,7 @@
 }
 .body-container {
     display: flex;
-    padding: 0px 150px;
+    padding: 0px 110px;
 }
 .tabs {
     display: flex;
@@ -26,6 +26,15 @@
     width: 356px;
     padding-left: 25px;
 }
+.tab-container .tabs li {
+    border-bottom: none;
+}
+.tab-container .tabs li.active {
+    border-bottom: 2px solid green;
+}
+.tabs li {
+    padding: 0 10px;
+  }
 .tab-container {
     width: 592px;
     margin-top: 100px;
@@ -34,7 +43,7 @@
 }
 .lower-body {
     display: flex;
-    padding: 80px 150px;
+    padding: 80px 110px;
     gap: 280px;
     border-top: solid 1px;
     border-color: #E5E5E5;
@@ -56,7 +65,7 @@
     width: 374px;
 }
 .Image {
-    margin: 50px 150px -100px 150px;
+    margin: 50px 110px -100px 110px;
     background-color: rgba(0, 0, 0, 0.5); /* Dark opacity */
     border-radius: 20px;
 }
@@ -64,23 +73,23 @@
     position: relative;
     border-radius: 20px;
     bottom: 288px;
-    left: 150px;
-    right: 150px;
-    width: 1600px;
+    left: 110px;
+    right: 110px;
+    width: 1670px;
     height: 384px;
     background-color: rgba(0, 0, 0, 0.5); /* Dark opacity */
 }
 .center {
     position: relative;
     bottom: 600px;
-    margin: 0px 150px -400px 150px;
+    margin: 0px 110px -400px 110px;
 }
 .center-text{
     display: flex;
     justify-content: center;
     text-align: center;
     color: #FFFFFF;
-    padding: 0px 500px;
+    padding: 0px 520px;
 }
 .button-container{
     align-items: center;
