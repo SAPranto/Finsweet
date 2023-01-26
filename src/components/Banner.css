@@ -1,19 +1,23 @@
 .bnr-container{
     display: flex;
+    justify-content: space-between;
     position: relative;
     background: #EFF7F2;
     padding: 50px 110px 100px 110px;
     width: 100%;
 }
+.img-container{
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+    width: 100%;
+}
 .image {
     position: relative;
     right: 0px;
-    top: 20px;
     bottom: 0px;
     height: 24rem;
     width: 30rem;
-    margin-left: 50px;
-    margin-right: 210px;
 }
 .border-left {
     border-left: solid 72px #000;
@@ -36,6 +40,7 @@
     line-height: 120%;
     color: #1D2130;
     margin-top: 10px;
+    z-index: 2;
 }
 .bnr-container h3 {
     font-weight: 700;
